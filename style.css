@@ -1,0 +1,42 @@
+body{
+    background-image: url('images/bg-intro-desktop.png');
+}
+.container{
+    display: grid;
+    background-color: hsl(0, 100%, 74%);
+    opacity: 0.8;
+    height: 100vh;
+    /* justify-content: end; */
+    /* align-content: center; */
+    grid-template-columns: auto auto auto;
+}
+*{
+    box-sizing: border-box;
+}
+form{
+    background-color: white;
+    border-radius: 10px;
+    /* margin: 50px auto; */
+    /* padding: 50px; */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+@media only screen and (min-width: 768px){
+form{
+    width:40%;
+    background-color: white;
+    height: 50vh;
+    border-radius: 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+input{
+    margin: 10px;
+    border-radius: 3px;
+}
+button{
+    width:40%;
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 5px;
+
+}
